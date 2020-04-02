@@ -1,0 +1,11 @@
+[package]
+name = "to_trait"
+version = "0.1.0"
+authors = ["Michael Hewson <michael@michaelhewson.ca>"]
+edition = "2018"
+repository = "https://github.com/mikeyhew/rust_to_trait"
+documentation = "https://docs.rs/to_trait"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
