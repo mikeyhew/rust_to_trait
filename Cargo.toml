@@ -5,6 +5,7 @@ authors = ["Michael Hewson <michael@michaelhewson.ca>"]
 edition = "2018"
 repository = "https://github.com/mikeyhew/rust_to_trait"
 documentation = "https://docs.rs/to_trait"
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
