@@ -1,5 +1,6 @@
 [package]
 name = "to_trait"
+description = "A trait with methods similar to .into() and .try_into(), except they take type arguments."
 version = "0.1.0"
 authors = ["Michael Hewson <michael@michaelhewson.ca>"]
 edition = "2018"
