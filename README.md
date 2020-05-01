@@ -2,7 +2,7 @@
 
 Provides the `To` trait, which provides methods similar to `.into()` and `.try_into()`, except they take type arguments. The trait looks like this:
 
-```
+```rust
 trait To {
     fn to<T>(self) -> T where Self: Into<T>;
     fn try_to<T>(self) -> Result<T, Self::Error> where Self: TryInto<T>;
@@ -11,7 +11,7 @@ trait To {
 
 and you use it like this:
 
-```
+```rust
 use to_trait::To;
 let five_u64 = 5u32.to::<u64>();
 let five_u8 = 5u32.to::<u8>().unwrap();
