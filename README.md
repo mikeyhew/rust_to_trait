@@ -14,7 +14,7 @@ and you use it like this:
 ```rust
 use to_trait::To;
 let five_u64 = 5u32.to::<u64>();
-let five_u8 = 5u32.to::<u8>().unwrap();
+let five_u8 = 5u32.try_to::<u8>().unwrap();
 ```
 
 At first glance, this might not seem very useful, but sometimes the compiler can't infer the output type of a call to `.into()`. This happens a lot with method chains, e.g. if you call `.into().some_other_method()`, and it can be pretty annoying.
